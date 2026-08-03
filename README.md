@@ -1,2 +1,29 @@
-# NutriLens
-AI-powered calorie tracker built with Kotlin. Uses Google Gemini API to recognize food from photos and estimate nutritional values.
+#NutriLens — Android AI Nutrition Tracker 🍎
+NutriLens — это нативное мобильное приложение для комплексного мониторинга рациона питания и показателей здоровья. Проект разработан в рамках курсовой работы (КФУ, ИВМиИТ) как доступная и бесплатная альтернатива популярным коммерческим трекерам калорий.
+🚀 Основные возможности (Core Features)
+ИИ-распознавание еды: Анализ состава блюд и автоматический подсчет КБЖУ по фотографии с использованием Google Gemini AI.
+Умный Дневник Питания: Разделение на приемы пищи (Завтрак, Обед, Ужин, Перекус) с визуализацией прогресса через круговые диаграммы.
+Персонализация: Расчет нормы калорий по формуле Миффлина — Сан Жеора и расчет белков на основе физической активности (1.2 – 2.0 г/кг).
+Валидация данных: Встроенная защита от некорректного использования (лимиты на рост до 230 см, вес до 200 кг, возраст до 110 лет).
+Трекер воды: Учет гидратации в миллилитрах с системой напоминаний через WorkManager.
+Смарт-календарь: Полная синхронизация записей с системной датой устройства.
+Локальная база: Поиск по предустановленной базе из 300+ продуктов (JSON).
+🛠 Технологический стек (Tech Stack)
+Language: Kotlin
+UI Framework: Jetpack Compose (Declarative UI)
+Architecture: MVVM (Model-View-ViewModel)
+Database: Room (SQLite) for daily logs & JSON Assets for food database.
+AI Integration: Google Generative AI SDK (Gemini 1.5 Flash API).
+Background Tasks: WorkManager for water reminders.
+Navigation: Jetpack Navigation Compose.
+📸 Скриншоты (Screenshots)
+(Сюда вставь ссылки на скриншоты, когда загрузишь их в папку в репозитории)
+📦 Как запустить (Installation)
+Клонируйте репозиторий:
+git clone https://github.com/твой_логин/NutriLens.git
+Откройте проект в Android Studio (Ladybug или новее).
+Получите собственный API Key в Google AI Studio.
+Вставьте ключ в файл AddFoodScreen.kt вместо заглушки.
+Нажмите Run.
+⚠️ Дисклеймер (Disclaimer)
+Данное приложение является учебным проектом. Для точного медицинского контроля питания рекомендуется консультироваться со специалистом.
