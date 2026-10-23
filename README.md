@@ -22,7 +22,7 @@ Navigation: Jetpack Navigation Compose.
 
 📦 Как запустить (Installation)
 Клонируйте репозиторий:
-git clone https://github.com/твой_логин/NutriLens.git
+git clone
 Откройте проект в Android Studio (Ladybug или новее).
 Получите собственный API Key в Google AI Studio.
 Вставьте ключ в файл AddFoodScreen.kt вместо заглушки.
